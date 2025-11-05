@@ -1,2 +1,61 @@
 
 /* Your CSS Code here. */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, main, footer {
+  text-align: center;
+  margin: 20px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #005fa3;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 3px solid #333;
+}
+
+p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #444;
+}
+
+ul[role="list"] {
+  display: inline-block;
+  text-align: left;
+}
+
+li[role="listitem"] {
+  margin: 5px 0;
+}
